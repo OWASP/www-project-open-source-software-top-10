@@ -8,14 +8,16 @@ Using components that are not guaranteed to be identical when downloaded at diff
 
 **Examples:**
 
-1. References to non-versioned shell scripts in CI/CD pipelines (e.g., https://codecov.io/bash)
-2. References to Git repositories without commit identifier (e.g., https://raw.githubusercontent.com/…/main/install.sh)
-3. HTTP links to package repositories (e.g., CVE-2021-26291)
+1. References to non-versioned shell scripts in CI/CD pipelines
+    -  [Codecov bash uploader](https://about.codecov.io/security-update/) (2021)
+2. References to Git repositories without commit identifier
+3. Insecure HTTP links to package registries
+    - [CVE-2021-26291](https://nvd.nist.gov/vuln/detail/CVE-2021-26291) in Apache Maven (2022)
 
 **Actions:**
 
 1. Use resource identifiers providing guarantees (or at least some degree of assurance) to always point to the same, immutable artifact.
-2. Additionally, verify digests or signatures after component download and before installation/use
+2. Verify digests or signatures after component download and before installation/use
 3. Use secure protocols for connection/distribution to avoid MITM attacks
 
 **References:**

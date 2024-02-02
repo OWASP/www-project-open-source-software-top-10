@@ -8,7 +8,7 @@ Malicious code can be executed on end-user systems or on systems belonging to th
 
 **Examples:**
 
-1. [Colourama](https://bertusk.medium.com/cryptocurrency-clipboard-hijacker-discovered-in-pypi-repository-b66b8a534a8): Typo-squatting attack on the legitimate Python package “colorama” to redirect Bitcoin transfers to an attacker-controlled wallet.
+1. [Colourama](https://bertusk.medium.com/cryptocurrency-clipboard-hijacker-discovered-in-pypi-repository-b66b8a534a8) (PyPI, 2018): Typo-squatting attack on the legitimate Python package "colorama", redirecting Bitcoin transfers to an attacker-controlled wallet.
 
 **Actions:**
 
