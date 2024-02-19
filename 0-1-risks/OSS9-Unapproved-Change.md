@@ -22,8 +22,7 @@ Using components that are not guaranteed to be identical when downloaded at diff
 
 **References:**
 
-1. SLSA Immutable Reference
-2. CWE-829: Inclusion of Functionality from Untrusted Control Sphere
-3. CWE-830: Inclusion of Web Functionality from an Untrusted Source 
-4. OWASP Top 10 A08:2021 – Software and Data Integrity Failures
-5. Codecov Bash Uploader Security Update
+1. SLSA [Immutable Reference](https://slsa.dev/spec/v0.1/requirements#immutable-reference)
+2. [CWE-829: Inclusion of Functionality from Untrusted Control Sphere](https://cwe.mitre.org/data/definitions/829.html)
+3. [CWE-830: Inclusion of Web Functionality from an Untrusted Source](https://cwe.mitre.org/data/definitions/830.html)
+4. OWASP Top 10:2021 [A08:2021 - Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/)

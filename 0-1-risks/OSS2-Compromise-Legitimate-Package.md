@@ -23,9 +23,9 @@ Example actions comprise:
 
 **References:**
 
-1. Secure Supply Chain Consumption Framework (S2C2F)
-2. Risk Explorer for Software Supply Chains - Subvert Legitimate Package (AV-001)
-3. OpenSSF Supply chain Levels for Software Artifacts (SLSA)
-4. MITRE ATT&CK Compromise Software Dependencies and Development Tools
-5. CICD-SEC-3: Dependency Chain Abuse
-6. OWASP SCVS V6 Pedigree and Provenance
+1. [Secure Supply Chain Consumption Framework](https://www.microsoft.com/en-us/securityengineering/opensource) (S2C2F)
+2. [Risk Explorer for Software Supply Chains](https://riskexplorer.endorlabs.com/) Subvert Legitimate Package (AV-001)
+3. [Supply chain Levels for Software Artifacts](https://slsa.dev/) (SLSA)
+4. MITRE ATT&CK [T1195.001 Compromise Software Dependencies and Development Tools](https://attack.mitre.org/techniques/T1195/001/)
+5. OWASP Top 10 CI-CD Security Risks [CICD-SEC-3: Dependency Chain Abuse](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-03-Dependency-Chain-Abuse)
+6. OWASP Software Component Versification Standard (SCVS) [V6 Pedigree and Provenance](https://owasp-scvs.gitbook.io/scvs/v6-pedigree-and-provenance)

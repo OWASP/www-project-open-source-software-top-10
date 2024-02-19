@@ -12,8 +12,11 @@ Falling too much behind the latest releases of a dependency can make it difficul
 
 **Actions:**
 
-1. Keep dependencies up-to-date, e.g., by using tools that create merge/pull requests with update suggestions, and making dependency updates recurring backlog items
+1. Make dependency updates recurring backlog items
+2. Automate the discovery and suggestion of updates, e.g. through merge/pull requests
+3. Avoid the introduction or breaking changes through change impact analysis
 
 **References:**
 
-1. OWASP Top 10 A06:2021 – Vulnerable and Outdated Components.
+1. OWASP Top 10:2021 [A06:2021 - Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
+2. [Versions Maven Plugin](https://www.mojohaus.org/versions/versions-maven-plugin/index.html)

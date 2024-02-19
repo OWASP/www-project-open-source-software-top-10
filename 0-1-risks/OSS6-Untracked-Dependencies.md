@@ -15,9 +15,8 @@ Flying under the radar, the respective component cannot be checked or monitored 
 
 **Actions:**
 
-1. Evaluate and compare SCA tools regarding their capability to produce accurate bills of materials, both at coarse-granular level (e.g., dependencies declared with help of package management tools likes Maven or npm) and fine-granular level (e.g., artifacts like single files included “out of band”, i.e., without using package managers) 
+1. Evaluate and compare SCA tools regarding their capability to produce accurate bills of materials, both at coarse-granular level (e.g., dependencies declared with help of package management tools likes Maven or npm) and fine-granular level (e.g., artifacts like single files included "out of band", i.e., without using package managers) 
 
 **References:**
 
-1. OWASP SCVS V1 Inventory and V2 Software Bills of Materials 
-2. Fossology
+1. OWASP Software Component Versification Standard (SCVS) [V1 Inventory and V2 Software Bills of Materials](https://owasp-scvs.gitbook.io/scvs/v1-inventory)

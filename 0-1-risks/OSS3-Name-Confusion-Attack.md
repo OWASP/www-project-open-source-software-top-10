@@ -18,7 +18,7 @@ Prior to installing/using a component:
 
 **References:**
 
-1. Secure Supply Chain Consumption Framework (S2C2F)
-2. Risk Explorer for Software Supply Chains - Create Name Confusion with Legitimate Package (AV-200)
-3. OpenSSF Supply chain Levels for Software Artifacts (SLSA)
-4. MITRE ATT&CK Compromise Software Dependencies and Development Tools
+1. [Secure Supply Chain Consumption Framework](https://www.microsoft.com/en-us/securityengineering/opensource) (S2C2F)
+2. [Risk Explorer for Software Supply Chains](https://riskexplorer.endorlabs.com/) Create Name Confusion with Legitimate Package (AV-200)
+3. [Supply chain Levels for Software Artifacts](https://slsa.dev/) (SLSA)
+4. MITRE ATT&CK [T1195.001 Compromise Software Dependencies and Development Tools](https://attack.mitre.org/techniques/T1195/001/)

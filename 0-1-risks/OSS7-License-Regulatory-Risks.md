@@ -31,3 +31,4 @@ The violation of legal and regulatory requirements can constrain or hamper addre
 2. [SPDX License List](https://spdx.org/licenses/)
 3. [REUSE](https://reuse.software/)
 4. [Various Licenses and Comments about Them](https://www.gnu.org/licenses/license-list.en.html)
+5. [Fossology](https://www.fossology.org/)

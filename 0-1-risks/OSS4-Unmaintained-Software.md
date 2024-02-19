@@ -36,9 +36,9 @@ This can result in increased efforts and longer resolution times. During that ti
 
 **References:**
 
-1. OWASP Top 10 A06:2021 - Vulnerable and Outdated Components
+1. OWASP Top 10:2021 [A06:2021 - Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
 2. [Bus factor](https://en.wikipedia.org/wiki/Bus_factor)
-3. CWE-1104: Use of Unmaintained Third Party Components
-4. CWE-1329: Reliance on Component That is Not Updateable
+3. Common Weakness Enumeration (CWE) [CWE-1104: Use of Unmaintained Third Party Components](https://cwe.mitre.org/data/definitions/1104.html)
+4. [CWE-1329: Reliance on Component That is Not Updateable](https://cwe.mitre.org/data/definitions/1329.html)
 5. [Adoptoposs](https://github.com/adoptoposs/adoptoposs)
 6. [Jazzband](https://jazzband.co/)

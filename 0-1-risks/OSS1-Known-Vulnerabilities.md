@@ -18,4 +18,4 @@ The vulnerability may be exploitable in the context of the downstream software, 
 
 **References:**
 
-1. [OWASP Top 10 A06:2021 – Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
+1. OWASP Top 10:2021 [A06:2021 - Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
