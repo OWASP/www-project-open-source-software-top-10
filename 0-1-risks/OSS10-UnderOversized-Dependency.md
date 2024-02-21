@@ -12,7 +12,7 @@ Very large components, on the other hand, may have accumulated many features tha
 
 1. [Apache Log4j](https://logging.apache.org/log4j/2.x/)
 
-    Included functionality to download and execute arbitrary Java class from remote servers, which eventually led to [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell).  
+    Included functionality to download and execute arbitrary Java classes from remote servers, which eventually led to [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell).  
 
 2. [Left-pad](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/) (npm, 2016)
 
@@ -20,7 +20,7 @@ Very large components, on the other hand, may have accumulated many features tha
 
 **Actions:**
 
-1. Become aware of unused component capabilities, esp. if they use critical APIs such as to establish network connections.
+1. Become aware of unused component capabilities, esp. if they use critical (security sensitive) APIs such as to establish network connections.
 
     Evaluate possibilities to disable unused capabilities, or move to smaller alternative open source components with fewer capabilities.
 2. Become aware of micro packages, and consider redeveloping their functionality internally.
@@ -28,5 +28,6 @@ Very large components, on the other hand, may have accumulated many features tha
 **References:**
 
 1. Definition: [Feature creep](https://en.wikipedia.org/wiki/Feature_creep)
-2. [Capslock: What is your code really capable of?](https://security.googleblog.com/2023/09/capslock-what-is-your-code-really.html) (Go, 2023)
-2. C. Soto-Valero et al.: [A comprehensive study of bloated dependencies in the Maven ecosystem](https://link.springer.com/article/10.1007/s10664-020-09914-8#:~:text=Bloated%20dependencies%20are%20libraries%20that,binary%20and%20increase%20maintenance%20effort) (EMSE, 2021)
+2. Tools to uncover the use of security sensitive APIs:
+    - Google [Capslock](https://github.com/google/capslock) for Go
+    - Microsoft [Application Inspector](https://github.com/microsoft/ApplicationInspector) for various programming languages

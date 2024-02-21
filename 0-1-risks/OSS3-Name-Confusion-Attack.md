@@ -13,8 +13,11 @@ Malicious code can be executed on end-user systems or on systems belonging to th
 **Actions:**
 
 Prior to installing/using a component: 
-1. Check code characteristics (pre/post installation hooks, encoded payloads, etc.) and project characteristics (source code repository, maintainer accounts, release frequency, number of downstream users, etc.) for leading risk indicators. Note that some component metadata is not verified by package repositories, thus, can easily be forged by attackers.
-2. Verify signatures (if any)
+1. Check code characteristics (pre/post installation hooks, encoded payloads, etc.) and project characteristics (source code repository, maintainer accounts, release frequency, number of downstream users, etc.) for leading risk indicators.
+
+    Note that some component metadata is not verified by package repositories, thus, can easily be forged by attackers.
+    
+2. Verify that the component carries a signature from a trusted party (for ecosystems that support/require signatures)
 
 **References:**
 

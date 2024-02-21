@@ -13,7 +13,7 @@ Malicious code can be executed on end-user systems or on systems belonging to th
 
 **Actions:**
 
-There's no single action to detect and prevent the ingestion of compromised packages. Organizations should consult emerging standards and frameworks like the OpenSSF Secure Supply Chain Consumption Framework (S2C2F) to inform themselves about possible safeguards, which should be selected and prioritized according to individual security requirements and risk appetite.
+There's no single action to detect and prevent the ingestion of compromised packages. Organizations should consult emerging standards and frameworks like the Secure Supply Chain Consumption Framework (S2C2F) to inform themselves about possible safeguards, which should be selected and prioritized according to individual security requirements and risk appetite.
 
 Example actions comprise:
 1. Verify component provenance according to SLSA

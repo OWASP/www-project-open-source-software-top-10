@@ -28,5 +28,3 @@ For example, a component or project may lack documentation, may not use or compl
 **References:**
 
 1. [OpenSSF Best Practices Badge Program](https://www.bestpractices.dev/en)
-2. [Common Weakness Enumeration](https://cwe.mitre.org/)
-

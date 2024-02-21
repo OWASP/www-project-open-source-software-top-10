@@ -11,11 +11,11 @@ pitch: A very brief, one-line description of your project
 
 ![top 10 oss risks](https://uploads-ssl.webflow.com/656eaf5c6da3527caf362363/65cc002b9f2f0a2f881be5ee_owasp.png)
 
-Despite the heavy reliance on OSS in the software supply chain, the industry lacks a consistent way to understand and measure risk for OSS. Risk management in OSS started with license management, and then evolved to CVEs, but we still lack a holistic approach to OSS risk management that encompasses security, legal, and application resiliency. With this document, we’re excited to collaborate with industry experts and leaders to create just that. 
+Despite the heavy reliance on OSS in the software supply chain, the industry lacks a consistent way to understand and measure risk for OSS. Risk management in OSS started with license management, and then evolved to CVEs, but we still lack a holistic approach to OSS risk management that encompasses security, legal, and opertional aspects. With this document, we're excited to collaborate with industry experts and leaders to create just that. 
 
 Over the last decade of reliance on OSS, known vulnerabilities, captured as CVEs, have emerged as the key metric of security. Known vulnerabilities, while an important signal, typically capture mistakes made by well-intentioned developers. These mistakes could be exploited by attackers and should be fixed, but they hardly encompass the full spectrum of risks that a reliance on OSS includes. 
 
-Operational risks, like ones introduced by outdated or unmaintained software, or next-generation supply chain attacks like name confusion attacks, cannot be captured by CVEs. These risks are significant, as highlighted by the recent Open Source Security and Risk Analysis report by Synopsys:
+Operational risks, like ones introduced by outdated or unmaintained software, or next-generation supply chain attacks like name confusion attacks, cannot be captured by CVEs. These risks are significant, as highlighted by the recent [Open Source Security and Risk Analysis report](https://www.synopsys.com/content/dam/synopsys/sig-assets/reports/rep-ossra-2023.pdf) by Synopsys:
 
 - 89% of codebases contain OSS that is more than 4 years out of date
 - 91% of codebases contain components that have had no new development in over two years
@@ -26,10 +26,10 @@ The top 10 OSS risks are:
 
 | Risk    | Description | something |
 | -------- | ------- |---|
-| [OSS-RISK-1 Known Vulnerabilities](./0-1-risks/OSS1-Known-Vulnerabilities.md)	  | A component version may contain vulnerable code, accidentally introduced by its developers. Vulnerability details are publicly disclosed, e.g, through a CVE. Exploits and patches may or may not be available.	    |Security|
+| [OSS-RISK-1 Known Vulnerabilities](./0-1-risks/OSS1-Known-Vulnerabilities.md)	  | A component version may contain vulnerable code, accidentally introduced by its developers. Vulnerability details are publicly disclosed, e.g, through CVE, GitHub Security Advisories or other, more informal communication channels. Exploits and patches may or may not be available.	    |Security|
 | [OSS-RISK-2 Compromise of Legitimate Package](./0-1-risks/OSS2-Compromise-Legitimate-Package.md)	 | Attackers may compromise resources that are part of an existing legitimate project or of the distribution infrastructure in order to inject malicious code into a component, e.g, through hijacking the accounts of legitimate project maintainers or exploiting vulnerabilities in package repositories.	     |Security|
 | [OSS-RISK-3 Name Confusion Attacks](./0-1-risks/OSS3-Name-Confusion-Attack.md)	    | Attackers may create components whose names resemble names of legitimate open-source or system components (typo-squatting), suggest trustworthy authors (brand-jacking) or play with common naming patterns in different languages or ecosystems (combo-squatting).	    |Security|
-| [OSS-RISK-4 Unmaintained Software](./0-1-risks/OSS4-Unmaintained-Software.md)	    | A component or component version may not be actively developed any more, thus, patches for functional and non-functional bugs may not be provided in a timely fashion (or not at all) by the original open source project	    |Ops|
+| [OSS-RISK-4 Unmaintained Software](./0-1-risks/OSS4-Unmaintained-Software.md)	    | A component or component version may not be actively developed any more, thus, patches for functional and non-functional bugs may not be provided in a timely fashion (or not at all) by the original open source project.	    |Ops|
 | [OSS-RISK-5 Outdated Software](./0-1-risks/OSS5-Outdated-Software.md)	    | A project may use an old, outdated version of the component (though newer versions exist).	    |Ops|
 | [OSS-RISK-6 Untracked Dependencies](./0-1-risks/OSS6-Untracked-Dependencies.md)	    | Project developers may not be aware of a dependency on a component at all, e.g., because it is not part of an upstream component's SBOM, because SCA tools are not run or do not detect it, or because the dependency is not established using a package manager.	    |Security, Ops|
 | [OSS-RISK-7 License Risk](./0-1-risks/OSS7-License-Regulatory-Risks.md)		    | A component or project may not have a license at all, or one that is incompatible with the intended use or whose requirements are not or cannot be met.	    |Ops|
