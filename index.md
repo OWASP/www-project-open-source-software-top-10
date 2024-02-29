@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: OWASP Open Source Software Top 10
+title: OWASP Top 10 Risks for Open Source Software
 tags: example-tag
 level: 2
 type: 
@@ -9,7 +9,9 @@ pitch: A very brief, one-line description of your project
 
 ---
 
-![top 10 oss risks](https://uploads-ssl.webflow.com/656eaf5c6da3527caf362363/65cc002b9f2f0a2f881be5ee_owasp.png)
+![top 10 oss risks](/assets/images/top10.png)
+
+## Introduction
 
 Despite the heavy reliance on OSS in the software supply chain, the industry lacks a consistent way to understand and measure risk for OSS. Risk management in OSS started with license management, and then evolved to CVEs, but we still lack a holistic approach to OSS risk management that encompasses security, legal, and opertional aspects. With this document, we're excited to collaborate with industry experts and leaders to create just that. 
 
@@ -24,7 +26,7 @@ On [The State of Dependency Management](https://endorlabs.webflow.io/learn/state
 
 The top 10 OSS risks are:
 
-| Risk    | Description | something |
+| Risk    | Description | Security / Operational Risk |
 | -------- | ------- |---|
 | [OSS-RISK-1 Known Vulnerabilities](./0-1-risks/OSS1-Known-Vulnerabilities.md)	  | A component version may contain vulnerable code, accidentally introduced by its developers. Vulnerability details are publicly disclosed, e.g, through CVE, GitHub Security Advisories or other, more informal communication channels. Exploits and patches may or may not be available.	    |Security|
 | [OSS-RISK-2 Compromise of Legitimate Package](./0-1-risks/OSS2-Compromise-Legitimate-Package.md)	 | Attackers may compromise resources that are part of an existing legitimate project or of the distribution infrastructure in order to inject malicious code into a component, e.g, through hijacking the accounts of legitimate project maintainers or exploiting vulnerabilities in package repositories.	     |Security|
@@ -38,13 +40,17 @@ The top 10 OSS risks are:
 | [OSS-RISK-10 Under/over-sized Dependency](./0-1-risks/OSS10-UnderOversized-Dependency.md)		    | A component may provide very little functionality (e.g. npm micro packages) or a lot of functionality (of which only a fraction may be used).	    |Security, Ops|
 
 ## Authors and Contributors
-![Authors](https://assets-global.website-files.com/6574c9e538a34feac8cec013/65bead00803e405540ee1711_63fe9397e0e9522788307ec1_Screenshot%25202023-02-28%2520at%25203.51.37%2520PM.png)
+
+![Authors](/assets/images/authors.png)
 
 ## Dependency Management 101
-To better understand how these risks may affect us, let us quickly review some basic concepts of dependency management using a simple example. Just skip this section if you’re familiar with dependency management.
 
-The root node of the dependency graph displayed below represents the example project. The child nodes of the root represent 9 open source components the project “directly” depends on. Those components, however, depend on other components as well, all of which become “transitive” or “indirect” dependencies from the perspective of the top-level project.
+To better understand how these risks may affect us, let us quickly review some basic concepts of dependency management using a simple example. Just skip this section if you're familiar with dependency management.
+
+The root node of the dependency graph displayed below represents the example project. The child nodes of the root represent 9 open source components the project "directly" depends on. Those components, however, depend on other components as well, all of which become "transitive" or "indirect" dependencies from the perspective of the top-level project.
 
 Direct dependencies are consciously selected by the project developers, e.g., through the declaration in a manifest file such as package.json (Node.js/npm) or pom.xml (Java/Maven) file. Package managers take care of downloading and installing those direct dependencies from 3rd party package repositories to the developers workstation or a CI/CD system. When doing so, package managers also identify transitive dependencies, resolve potential version conflicts and install them locally. In other words, plenty of components are downloaded in an automated fashion in order to make sure all code required by the example project (and more) is present on the developer machine.
-![dependency management](https://assets-global.website-files.com/6574c9e538a34feac8cec013/65bead00803e405540ee171b_63fe92d1c33d5b05cc2c6230_LzJxmbByCB9JLF_BXzxj_p8m2CnDZe0Xkk07Q06KTyV2zgaCdIaNc6AkU7gd8klHAJykYTcDAU8xDnRh7lBUtBQ0eVBGDV_dPyC_lK8fzOUdq33GtEI7NA9B_Q0-Xhw8MgocdVsyuuB9z7WiWv3_Mok.png)
-This high degree of automation boosted the reuse of open source components in today’s software development. As a result, large portions of modern software have not been specifically developed for an application at hand, but come from generic open source projects. Looking again at the dependency graph, it is not surprising that the ratio of code written for the project itself (the root node) to the code of open source components is 1:4 or less. And we haven’t even touched upon IDEs, build tools etc.
+
+![Dependency Graph for Graph Maven Plugin](/assets/images/deptree.png)
+
+This high degree of automation boosted the reuse of open source components in today's software development. As a result, large portions of modern software have not been specifically developed for an application at hand, but come from generic open source projects. Looking again at the dependency graph, it is not surprising that the ratio of code written for the project itself (the root node) to the code of open source components is 1:4 or less. And we haven't even touched upon IDEs, build tools etc.
