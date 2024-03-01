@@ -1,7 +1,7 @@
 ### Top 10 Open Source Software Risks
-* <i class="fas fa-egg"></i>Lab Project
+* <i class="fas fa-egg"></i> Lab Project
 * Project type: <i class="fas fa-file-alt"></i> Documentation
-* Audience: <i class="fas fa-toolbox"></i> Builder, <i class="fas fa-shield-alt"></i> Defender
+* Audience: <i class="fas fa-toolbox"></i> Builder <i class="fas fa-shield-alt"></i> Defender
 * Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)
 * Current version: v0.1
 
@@ -13,4 +13,4 @@
 * [GitHub](https://github.com/OWASP/www-project-open-source-software-top-10)
 
 ### Change Log
-* 28 Feb 2024: Released [v0.1](https://github.com/OWASP/www-project-open-source-software-top-10/releases/v0.1)
+* 29 Feb 2024: Released [v0.1](https://github.com/OWASP/www-project-open-source-software-top-10/releases/v0.1)
