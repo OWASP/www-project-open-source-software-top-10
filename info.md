@@ -1,5 +1,5 @@
 ### Top 10 Open Source Software Risks
-* <i class="fas fa-egg"></i> Lab Project
+* <i class="fas fa-egg"></i> Incubator Project
 * Project type: <i class="fas fa-file-alt"></i> Documentation
 * Audience: <i class="fas fa-toolbox"></i> Builder <i class="fas fa-shield-alt"></i> Defender
 * Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)
