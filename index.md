@@ -2,10 +2,10 @@
 
 layout: col-sidebar
 title: OWASP Top 10 Risks for Open Source Software
-tags: example-tag
+tags: 
 level: 2
 type: 
-pitch: A very brief, one-line description of your project
+pitch: 
 
 ---
 
@@ -26,16 +26,16 @@ On [The State of Dependency Management](https://endorlabs.webflow.io/learn/state
 
 The top 10 OSS risks are:
 
-- [OSS-RISK-1 Known Vulnerabilities](./0-1-risks/OSS1-Known-Vulnerabilities.md): A component version may contain vulnerable code, accidentally introduced by its developers. Vulnerability details are publicly disclosed, e.g, through CVE, GitHub Security Advisories or other, more informal communication channels. Exploits and patches may or may not be available.
-- [OSS-RISK-2 Compromise of Legitimate Package](./0-1-risks/OSS2-Compromise-Legitimate-Package.md): Attackers may compromise resources that are part of an existing legitimate project or of the distribution infrastructure in order to inject malicious code into a component, e.g, through hijacking the accounts of legitimate project maintainers or exploiting vulnerabilities in package repositories.
-- [OSS-RISK-3 Name Confusion Attacks](./0-1-risks/OSS3-Name-Confusion-Attack.md): Attackers may create components whose names resemble names of legitimate open-source or system components (typo-squatting), suggest trustworthy authors (brand-jacking) or play with common naming patterns in different languages or ecosystems (combo-squatting).
-- [OSS-RISK-4 Unmaintained Software](./0-1-risks/OSS4-Unmaintained-Software.md): A component or component version may not be actively developed any more, thus, patches for functional and non-functional bugs may not be provided in a timely fashion (or not at all) by the original open source project.
-- [OSS-RISK-5 Outdated Software](./0-1-risks/OSS5-Outdated-Software.md): A project may use an old, outdated version of the component (though newer versions exist).
-- [OSS-RISK-6 Untracked Dependencies](./0-1-risks/OSS6-Untracked-Dependencies.md): Project developers may not be aware of a dependency on a component at all, e.g., because it is not part of an upstream component's SBOM, because SCA tools are not run or do not detect it, or because the dependency is not established using a package manager.
-- [OSS-RISK-7 License Risk](./0-1-risks/OSS7-License-Regulatory-Risks.md): A component or project may not have a license at all, or one that is incompatible with the intended use or whose requirements are not or cannot be met.
-- [OSS-RISK-8 Immature Software](./0-1-risks/OSS8-Immature-Software.md): An open source project may not apply development best-practices, e.g., not use a standard versioning scheme, have no regression test suite, review guidelines or documentation. As a result, a component may not work reliably or securely.
-- [OSS-RISK-9 Unapproved Change](./0-1-risks/OSS9-Unapproved-Change.md): A component may change without developers being able to notice, review or approve such changes, e.g., because the download link points to an unversioned resource, because a versioned resource has been modified or tampered with or due to an insecure data transfer.
-- [OSS-RISK-10 Under/over-sized Dependency](./0-1-risks/OSS10-UnderOversized-Dependency.md): A component may provide very little functionality (e.g. npm micro packages) or a lot of functionality (of which only a fraction may be used).
+- [OSS-RISK-1](./0-1-risks/OSS1-Known-Vulnerabilities.md) Known Vulnerabilities: A component version may contain vulnerable code, accidentally introduced by its developers. Vulnerability details are publicly disclosed, e.g, through CVE, GitHub Security Advisories or other, more informal communication channels. Exploits and patches may or may not be available.
+- [OSS-RISK-2](./0-1-risks/OSS2-Compromise-Legitimate-Package.md) Compromise of Legitimate Package: Attackers may compromise resources that are part of an existing legitimate project or of the distribution infrastructure in order to inject malicious code into a component, e.g, through hijacking the accounts of legitimate project maintainers or exploiting vulnerabilities in package repositories.
+- [OSS-RISK-3](./0-1-risks/OSS3-Name-Confusion-Attack.md) Name Confusion Attacks: Attackers may create components whose names resemble names of legitimate open-source or system components (typo-squatting), suggest trustworthy authors (brand-jacking) or play with common naming patterns in different languages or ecosystems (combo-squatting).
+- [OSS-RISK-4](./0-1-risks/OSS4-Unmaintained-Software.md) Unmaintained Software: A component or component version may not be actively developed any more, thus, patches for functional and non-functional bugs may not be provided in a timely fashion (or not at all) by the original open source project.
+- [OSS-RISK-5](./0-1-risks/OSS5-Outdated-Software.md) Outdated Software: A project may use an old, outdated version of the component (though newer versions exist).
+- [OSS-RISK-6](./0-1-risks/OSS6-Untracked-Dependencies.md) Untracked Dependencies: Project developers may not be aware of a dependency on a component at all, e.g., because it is not part of an upstream component's SBOM, because SCA tools are not run or do not detect it, or because the dependency is not established using a package manager.
+- [OSS-RISK-7](./0-1-risks/OSS7-License-Regulatory-Risks.md) License Risk: A component or project may not have a license at all, or one that is incompatible with the intended use or whose requirements are not or cannot be met.
+- [OSS-RISK-8](./0-1-risks/OSS8-Immature-Software.md) Immature Software: An open source project may not apply development best-practices, e.g., not use a standard versioning scheme, have no regression test suite, review guidelines or documentation. As a result, a component may not work reliably or securely.
+- [OSS-RISK-9](./0-1-risks/OSS9-Unapproved-Change.md) Unapproved Change: A component may change without developers being able to notice, review or approve such changes, e.g., because the download link points to an unversioned resource, because a versioned resource has been modified or tampered with or due to an insecure data transfer.
+- [OSS-RISK-10](./0-1-risks/OSS10-UnderOversized-Dependency.md) Under/over-sized Dependency: A component may provide very little functionality (e.g. npm micro packages) or a lot of functionality (of which only a fraction may be used).
 
 ## Authors and Contributors
 
