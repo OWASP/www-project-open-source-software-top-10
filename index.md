@@ -1,11 +1,8 @@
 ---
 
-layout: col-sidebar
 title: OWASP Top 10 Risks for Open Source Software
-tags: 
+layout: col-sidebar
 level: 2
-type: 
-pitch: 
 
 ---
 
