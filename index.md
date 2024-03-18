@@ -1,9 +1,10 @@
 ---
-
-title: OWASP Top 10 Risks for Open Source Software
 layout: col-sidebar
+title: OWASP Top 10 Risks for Open Source Software
 level: 2
-
+type: documentation
+tags: top-10, open source, security, operations
+pitch: Top-10 security and operational risks related to using OSS. 
 ---
 
 ![top 10 oss risks](/assets/images/top10.png)
