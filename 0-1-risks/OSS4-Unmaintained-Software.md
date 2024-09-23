@@ -11,7 +11,7 @@ This can result in increased efforts and longer resolution times. During that ti
 **Examples:**
 
 1. [core-js](https://www.theregister.com/2020/03/26/corejs_maintainer_jailed_code_release) (npm, 2020)
-2. [Gorilla Web Toolkit](https://www.chainguard.dev/unchained/a-tale-of-two-software-security-risks) (Go, 2022)
+2. [Gorilla Web Toolkit](https://www.chainguard.dev/unchained/the-archiving-of-the-gorilla-web-toolkit-a-tale-of-two-software-security-risks) (Go, 2022)
 3. [minimist](https://twitter.com/ljharb/status/1579610392414007299?lang=en) (npm, 2022)
 
 **Actions:**
