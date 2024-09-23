@@ -31,3 +31,4 @@ Very large components, on the other hand, may have accumulated many features tha
 2. Tools to uncover the use of security sensitive APIs:
     - Google [Capslock](https://github.com/google/capslock) for Go
     - Microsoft [Application Inspector](https://github.com/microsoft/ApplicationInspector) for various programming languages
+    - Rahman et al.: [Less Is More](https://arxiv.org/pdf/2408.02846): A Mixed-Methods Study on Security-Sensitive API Calls in Java for Better Dependency Selection
