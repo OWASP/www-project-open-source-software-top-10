@@ -4,7 +4,7 @@
 
 A component version may contain vulnerable code, accidentally introduced by its developers. Vulnerability details are publicly disclosed, e.g, through CVE, GitHub Security Advisories or other, more informal communication channels. Exploits and patches may or may not be available.
 
-The vulnerability may be exploitable in the context of the downstream software, which could compromise the confidentiality, integrity or availability of the respective system or its data, allow laterial movements in the target environment or have other negative effects.
+The vulnerability may be exploitable in the context of the downstream software, which could compromise the confidentiality, integrity or availability of the respective system or its data, allow lateral movements in the target environment or have other negative effects.
 
 **Examples:**
 
