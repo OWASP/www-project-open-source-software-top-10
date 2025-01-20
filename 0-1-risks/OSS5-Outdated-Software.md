@@ -22,5 +22,5 @@ Falling too much behind the latest releases of a dependency can make it difficul
 1. OWASP Top 10:2021 [A06:2021 - Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
 2. Tools to check for the availability of new versions:
     - [Versions Maven Plugin](https://www.mojohaus.org/versions/versions-maven-plugin/index.html)
-3. Tools to detect breacking changes:
+3. Tools to detect breaking changes:
     - [AexPy](https://github.com/StardustDL/aexpy)
